@@ -55,3 +55,12 @@ h2{font-size:clamp(2.5rem,4.8vw,5.4rem);line-height:.98;letter-spacing:-.045em;m
 
 @media(max-width:1180px){.nav{display:none}.menu-toggle{display:block;justify-self:center;border:1px solid var(--line);background:white;border-radius:999px;padding:8px 12px}.nav.open{display:flex;position:absolute;top:82px;left:0;right:0;background:#fbfaf7;padding:22px 28px;flex-direction:column;border-bottom:1px solid var(--line)}.header-actions .button-outline{display:none}.hero-grid,.intro-grid,.room-layout,.feature-grid,.feature-grid.reverse,.human-review .feature-grid,.demo-grid,.split-heading{grid-template-columns:1fr}.character-grid{grid-template-columns:repeat(2,1fr)}.human-scenarios,.evidence-principles,.triage-grid,.ways-grid{grid-template-columns:repeat(2,1fr)}.same-event{grid-template-columns:repeat(3,1fr)}.event-core{grid-column:1/-1}.cta-grid{grid-template-columns:1fr}.cta-actions{flex-direction:row}.split-heading{gap:20px}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.shell{width:min(100% - 28px,1540px)}.section-pad{padding:76px 0}.topbar{grid-template-columns:auto auto auto;gap:8px}.brand-divider,.product-brand span,.header-actions .button-outline{display:none}.header-actions .button{font-size:.7rem;padding:9px 10px}.hero{min-height:900px}.hero-grid{grid-template-columns:1fr;padding-top:90px}.hero-panel{display:none}.human-scenarios,.character-grid,.evidence-principles,.triage-grid,.output-grid,.ways-grid,.boundary-grid,.film-plan,.footer-grid,.same-event{grid-template-columns:1fr}.journey-track{align-items:flex-start}.journey-track b{display:none}.journey-track span{width:100%}.report-grid{grid-template-columns:1fr}.cta-actions{flex-direction:column}.visual-wide img,.feature-grid figure img,.visual-frame img{border-radius:18px}}
+
+.film-showcase{padding:86px 0;background:#f6f2eb}
+.film-showcase-secondary{background:#fff}
+.film-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:56px;align-items:center}
+.film-grid.reverse-film{grid-template-columns:1.28fr .72fr}
+.film-copy{font-size:1.08rem;color:var(--muted);max-width:620px}
+.witness-film{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:28px;box-shadow:var(--shadow);background:#0d1e2a}
+@media(max-width:1180px){.film-grid,.film-grid.reverse-film{grid-template-columns:1fr}.film-grid.reverse-film video{order:2}.film-grid.reverse-film>div{order:1}}
+@media(max-width:720px){.film-showcase{padding:58px 0}.witness-film{border-radius:18px}}
