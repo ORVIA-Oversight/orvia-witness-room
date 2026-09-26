@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>ORVIA Witness Room™ — Face the room. Find the gaps. Own your account.</title>
   <meta name="description" content="ORVIA Witness Room is a structured preparation and evidence-challenge environment that helps people test an account, evidence and chronology before real-world scrutiny.">
   <meta property="og:title" content="ORVIA Witness Room™">
@@ -13,6 +16,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <div class="topbar shell">
       <a class="brand" href="#top" aria-label="ORVIA Witness Room home">
@@ -23,11 +27,13 @@
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
       <nav id="nav" class="nav" aria-label="Primary navigation"><a href="https://orvia.org.uk/">ORVIA Home</a>
         <a href="#what">What It Is</a>
+        <a href="#journey">How It Works</a>
         <a href="#room">The Room</a>
         <a href="#perspectives">Perspectives</a>
         <a href="#crucible">Crucible</a>
         <a href="#red-team">Red Team</a>
         <a href="#outcome">What You Receive</a>
+        <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
       </nav>
       <div class="header-actions">
@@ -37,7 +43,7 @@
     </div>
   </header>
 
-  <main id="top">
+  <main id="main-content">
     <section class="hero">
       <img class="hero-media" src="ChatGPT Image Sep 25, 2026, 09_30_16 PM-1.png" alt="A person preparing an account while multiple controlled perspectives examine evidence and questions">
       <div class="hero-overlay"></div>
@@ -109,7 +115,7 @@
       </div>
     </section>
 
-    <section class="journey-band">
+    <section id="journey" class="journey-band">
       <div class="shell">
         <p class="eyebrow">THE PRODUCT JOURNEY</p>
         <div class="journey-track" aria-label="Witness Room product journey">
@@ -150,7 +156,7 @@
       <div class="shell room-layout">
         <div class="room-copy">
           <p class="eyebrow light">THE ROOM</p>
-          <h2>Serious scrutiny. Psychologically safe preparation.</h2>
+          <h2>Serious scrutiny. Respectful preparation.</h2>
           <p>You remain central. Evidence remains central. The Room introduces controlled perspectives to help you see where your account is clear, where it is weak and where somebody else may reasonably interpret the same material differently.</p>
           <div class="promise-list">
             <span>I can practise explaining my account here.</span>
@@ -353,6 +359,96 @@
       </div>
     </section>
 
+
+    <section id="pricing" class="pricing-section section-pad">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">WITNESS ROOM PRICING</p>
+            <h2>Choose one Room, or ongoing access.</h2>
+          </div>
+          <p>Witness Room should be commercially clear before anyone is asked to enquire. One-off preparation, guided professional support and recurring access are separate offers with different levels of human involvement.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="price-type">ONE-OFF</p>
+            <h3>Witness Room</h3>
+            <div class="price-line"><span>£99</span><small>one matter</small></div>
+            <p>Self-directed structured preparation for one defined matter, meeting, review or hearing.</p>
+            <ul>
+              <li>Account and chronology structure</li>
+              <li>Evidence and gap review</li>
+              <li>Controlled perspectives</li>
+              <li>Crucible and Red Team stages</li>
+              <li>Preparation report</li>
+            </ul>
+            <button class="button purchase-button" type="button" data-offer="witness-one-off" aria-disabled="true">Buy one Room</button>
+          </article>
+
+          <article class="price-card">
+            <p class="price-type">GUIDED</p>
+            <h3>Professional Session</h3>
+            <div class="price-line"><span>£295</span><small>per client session</small></div>
+            <p>A guided Witness Room preparation session with an ORVIA human support layer.</p>
+            <ul>
+              <li>Defined client matter</li>
+              <li>Structured preparation session</li>
+              <li>Evidence-aware questioning</li>
+              <li>Preparation points and limitations</li>
+              <li>Human follow-through</li>
+            </ul>
+            <button class="button purchase-button" type="button" data-offer="witness-professional" aria-disabled="true">Book professional session</button>
+          </article>
+
+          <article class="price-card price-card-featured">
+            <p class="price-type">INDIVIDUAL</p>
+            <h3>Ongoing Access</h3>
+            <div class="price-line"><span>£89</span><small>/ month</small></div>
+            <p>For people who need repeated access across more than one preparation matter.</p>
+            <ul>
+              <li>Repeat Witness Room use</li>
+              <li>Saved preparation work</li>
+              <li>Consistent evidence discipline</li>
+              <li>Help and onboarding</li>
+              <li>Cancel through account controls</li>
+            </ul>
+            <button class="button purchase-button" type="button" data-offer="witness-individual" aria-disabled="true">Subscribe</button>
+          </article>
+
+          <article class="price-card">
+            <p class="price-type">TEAM / ORGANISATION</p>
+            <h3>Professional Access</h3>
+            <div class="tier-stack">
+              <div><strong>Team</strong><span>£449 / month</span></div>
+              <div><strong>Organisation</strong><span>£899 / month</span></div>
+            </div>
+            <p>For authorised professional teams or organisations needing repeated controlled preparation environments.</p>
+            <ul>
+              <li>Multiple authorised users</li>
+              <li>Controlled organisational use</li>
+              <li>Consistent workflows</li>
+              <li>Governance and access controls</li>
+              <li>Organisation onboarding</li>
+            </ul>
+            <button class="button purchase-button" type="button" data-offer="witness-team" aria-disabled="true">Choose professional access</button>
+          </article>
+        </div>
+
+        <div class="commercial-note">
+          <strong>Commercial approval gate</strong>
+          <p>These prices are being used in the master commercial pass but checkout remains disabled until the ORVIA Products &amp; Services register marks the offer Approved for live and the corresponding Stripe Payment Link is verified. Sensitive evidence is never collected on the payment page.</p>
+        </div>
+
+        <div class="purchase-journey">
+          <div><span>1</span><strong>Choose</strong><p>Select the access route that matches how you need to use Witness Room.</p></div>
+          <div><span>2</span><strong>Pay securely</strong><p>Complete payment through Stripe-hosted checkout.</p></div>
+          <div><span>3</span><strong>Welcome &amp; onboarding</strong><p>Receive your secure access and the short founder-led orientation.</p></div>
+          <div><span>4</span><strong>Begin your Room</strong><p>Only then are you directed to the secure route for case material.</p></div>
+        </div>
+      </div>
+    </section>
+
     <section id="safety" class="section-pad shell">
       <div class="section-heading split-heading"><div><p class="eyebrow">WHAT WITNESS ROOM WILL NOT DO</p><h2>Human beings remain accountable.</h2></div><p>These boundaries are part of the product, not small-print disclaimers.</p></div>
       <div class="boundary-grid">
@@ -378,7 +474,7 @@
         <div class="section-heading split-heading"><div><p class="eyebrow">WITNESS ROOM STORIES</p><h2>Who enters the Room?</h2></div><p>Witness Room is designed around real situations and different human viewpoints. The films and scenarios help people recognise the kinds of preparation the Room is built to support.</p></div>
         <div class="film-plan">
           <article><h3>Human perspectives</h3><p>The parent · The father · The mother · LGBTQ+ parent · Young person · Carer · Whistleblower · Veteran · Grandparents</p></article>
-          <article><h3>Room perspectives</h3><p>Eleanor Graves · Alistair Keane · Grace Okafor · Mark Devlin · Maggie Frost · other controlled Witness Room films</p></article>
+          <article><h3>Room perspectives</h3><p>Legal Scrutiny · Dr Alistair Keane · Grace Okafor-Williams · Dr Ravi Anand · Family · Family Welfare · Regulatory Inspection · Board Member</p></article>
         </div>
       </div>
     </section>
@@ -415,19 +511,19 @@
     </section>
   </main>
 
-  <section class="orvia-trust-veterans" aria-label="ORVIA trust and Armed Forces commitments" style="padding:28px 20px;border-top:1px solid rgba(127,127,127,.22);border-bottom:1px solid rgba(127,127,127,.22);background:rgba(127,127,127,.04)">
-  <div style="max-width:1180px;margin:0 auto;display:grid;gap:14px">
+  <section class="orvia-trust-veterans" aria-label="ORVIA trust and Armed Forces commitments">
+  <div class="shell trust-veterans-grid">
     <div>
-      <p style="margin:0 0 6px;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase">ORVIA TRUST &amp; VETERANS</p>
-      <h2 style="margin:0 0 8px;font-size:clamp(1.35rem,2vw,2rem)">Verified commitments. Clear public evidence.</h2>
-      <p style="margin:0;max-width:850px">ORVIA Oversight Ltd is veteran-founded, a registered Armed Forces Covenant signatory and a Defence Employer Recognition Scheme Bronze Award holder. ORVIA also has a verified public Trust a Veteran profile.</p>
+      <p class="trust-kicker">ORVIA TRUST &amp; VETERANS</p>
+      <h2 class="trust-title">Verified commitments. Clear public evidence.</h2>
+      <p class="trust-copy">ORVIA Oversight Ltd is veteran-founded, a registered Armed Forces Covenant signatory and a Defence Employer Recognition Scheme Bronze Award holder. ORVIA also has a verified public Trust a Veteran profile.</p>
     </div>
-    <div style="display:flex;flex-wrap:wrap;gap:10px">
-      <a href="https://orvia.org.uk/veterans" style="font-weight:700">Veterans at ORVIA →</a>
-      <a href="https://www.trustaveteran.com/team/orvia" target="_blank" rel="noopener" style="font-weight:700">Trust a Veteran profile →</a>
-      <a href="https://www.armedforcescovenant.gov.uk/" target="_blank" rel="noopener" style="font-weight:700">Armed Forces Covenant →</a>
+    <div class="trust-links">
+      <a href="https://orvia.org.uk/veterans" class="trust-link">Veterans at ORVIA →</a>
+      <a href="https://www.trustaveteran.com/team/orvia" target="_blank" rel="noopener" class="trust-link">Trust a Veteran profile →</a>
+      <a href="https://www.armedforcescovenant.gov.uk/" target="_blank" rel="noopener" class="trust-link">Armed Forces Covenant →</a>
     </div>
-    <p style="margin:0;font-size:.84rem;opacity:.78">ERS Bronze is the current verified recognition level. Silver and Gold are ambitions only and are not claimed as awarded.</p>
+    <p class="trust-note">ERS Bronze is the current verified recognition level. Silver and Gold are ambitions only and are not claimed as awarded.</p>
   </div>
 </section>
 <footer class="footer">
