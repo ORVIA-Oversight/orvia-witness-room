@@ -108,3 +108,18 @@ h2{font-size:clamp(2.5rem,4.8vw,5.4rem);line-height:.98;letter-spacing:-.045em;m
   .clarity-grid,.relationship-cards,.report-preview-body{grid-template-columns:1fr}
   .character-card>p{min-height:0}
 }
+
+
+.pricing-section{background:linear-gradient(180deg,#fff 0%,#f7f5ef 100%)}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:34px}
+.price-card{display:flex;flex-direction:column;gap:14px;padding:28px;border:1px solid rgba(15,26,46,.12);border-radius:24px;background:#fff;box-shadow:0 12px 34px rgba(15,26,46,.06)}
+.price-card.featured{border-color:rgba(42,157,143,.5);box-shadow:0 16px 40px rgba(42,157,143,.12)}
+.price-card h3{margin:0;font-size:1.55rem}
+.price-card p{margin:0}
+.price-kicker{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#2a9d8f}
+.price-status{font-weight:800;color:#0f1a2e}
+.price-card ul{margin:2px 0 8px;padding-left:1.1rem;display:grid;gap:8px}
+.price-card .button{margin-top:auto;text-align:center}
+.pricing-note{margin-top:18px;padding:16px 18px;border-radius:16px;background:#0f1a2e;color:#fff;display:flex;gap:10px;flex-wrap:wrap}
+.pricing-note span{opacity:.84}
+@media (max-width:900px){.pricing-grid{grid-template-columns:1fr}}
