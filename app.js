@@ -16,3 +16,11 @@ const screen=document.getElementById('demo-screen');
 const tabs=[...document.querySelectorAll('.demo-tab')];
 function renderDemo(i){if(!screen)return;const d=demoData[i];screen.innerHTML=`<div class="demo-top"><span class="demo-badge">${d.label}</span><small>Fictional demonstration</small></div><h3>${d.title}</h3>${d.body}`;tabs.forEach((t,idx)=>t.classList.toggle('active',idx===i));}
 tabs.forEach((t,i)=>t.addEventListener('click',()=>renderDemo(i)));renderDemo(0);
+
+
+document.querySelectorAll('.purchase-button[aria-disabled="true"]').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const note=document.querySelector('.commercial-note');
+    note?.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+});
